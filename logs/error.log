@@ -1,0 +1,185 @@
+2024/10/24 16:44:34 [notice] 27028#27392: signal process started
+2024/10/24 16:44:38 [error] 29956#26136: *4 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/10/24 16:46:53 [emerg] 35892#22220: unexpected end of file, expecting "}" in C:\nginx-1.24.0/conf/nginx.conf:41
+2024/10/24 16:47:39 [notice] 28892#28004: signal process started
+2024/10/24 16:53:35 [notice] 34132#30760: signal process started
+2024/10/24 17:06:29 [notice] 33996#35948: signal process started
+2024/10/24 17:09:38 [notice] 21716#29144: signal process started
+2024/10/24 17:31:42 [notice] 23924#26692: signal process started
+2024/10/24 17:44:43 [notice] 24996#13404: signal process started
+2024/10/24 17:51:32 [notice] 24264#31200: signal process started
+2024/10/24 19:54:16 [emerg] 36760#35904: unknown directive "#프로세스의" in C:\nginx-1.24.0/conf/nginx.conf:4
+2024/10/24 19:54:42 [emerg] 37160#37580: unknown directive "#프로세스의" in C:\nginx-1.24.0/conf/nginx.conf:4
+2024/10/24 19:57:05 [emerg] 28412#27932: directive "worker_processes" is not terminated by ";" in C:\nginx-1.24.0/conf/nginx.conf:4
+2024/10/24 19:57:23 [emerg] 32620#34140: directive "worker_processes" is not terminated by ";" in C:\nginx-1.24.0/conf/nginx.conf:4
+2024/10/24 19:57:33 [emerg] 24472#31080: directive "worker_processes" is not terminated by ";" in C:\nginx-1.24.0/conf/nginx.conf:4
+2024/10/24 19:58:23 [emerg] 13156#34460: directive "keepalive_timeout" is not terminated by ";" in C:\nginx-1.24.0/conf/nginx.conf:15
+2024/10/24 19:58:34 [emerg] 27856#30384: unknown directive "요청을" in C:\nginx-1.24.0/conf/nginx.conf:20
+2024/10/24 19:59:08 [emerg] 35664#28824: unknown directive "요청을" in C:\nginx-1.24.0/conf/nginx.conf:20
+2024/10/24 19:59:16 [emerg] 24316#6132: unknown directive "요청을" in C:\nginx-1.24.0/conf/nginx.conf:20
+2024/10/24 19:59:32 [emerg] 35904#36760: unknown directive "요청을" in C:\nginx-1.24.0/conf/nginx.conf:20
+2024/10/25 08:56:35 [notice] 40208#26984: signal process started
+2024/10/25 10:09:09 [notice] 38604#20928: signal process started
+2024/10/25 10:15:00 [notice] 35776#13372: signal process started
+2024/10/25 10:15:59 [notice] 25032#33108: signal process started
+2024/10/25 13:31:44 [notice] 34796#35328: signal process started
+2024/10/25 13:32:37 [error] 31608#31964: *91 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2024/10/25 13:32:37 [error] 31608#31964: *91 CreateFile() "C:/nginx/html/50x.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2024/10/25 13:33:19 [error] 31608#31964: *91 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2024/10/25 13:33:19 [error] 31608#31964: *91 CreateFile() "C:/nginx/html/50x.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2024/10/25 13:33:23 [error] 31608#31964: *91 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2024/10/25 13:33:23 [error] 31608#31964: *91 CreateFile() "C:/nginx/html/50x.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2024/10/25 13:34:56 [notice] 41340#26584: signal process started
+2024/10/25 13:38:34 [notice] 38424#43680: signal process started
+2024/10/25 13:47:57 [emerg] 34344#14924: invalid number of arguments in "ssl_certificate" directive in C:\nginx-1.24.0/conf/nginx.conf:26
+2024/10/25 13:49:28 [emerg] 17632#42592: invalid number of arguments in "ssl_certificate" directive in C:\nginx-1.24.0/conf/nginx.conf:26
+2024/10/25 13:53:41 [emerg] 35116#39028: cannot load certificate "C:
+ginx-1.24.0\ssl\cert.pem": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('C:
+ginx-1.24.0\ssl\cert.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2024/10/25 13:56:26 [emerg] 38372#19884: cannot load certificate "C:
+ginx-1.24.0\ssl\cert.pem": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('C:
+ginx-1.24.0\ssl\cert.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2024/10/25 13:56:35 [emerg] 13148#33312: cannot load certificate "C:
+ginx-1.24.0\ssl\cert.pem": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('C:
+ginx-1.24.0\ssl\cert.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2024/10/25 13:57:46 [emerg] 38120#40144: cannot load certificate "C:
+ginx-1.24.0\ssl\cert.pem": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('C:
+ginx-1.24.0\ssl\cert.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2024/10/25 14:06:45 [emerg] 40204#25580: cannot load certificate "C:
+ginx-1.24.0\ssl\cert.pem": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('C:
+ginx-1.24.0\ssl\cert.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2024/10/25 14:06:57 [error] 31608#31964: *98 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2024/10/25 14:06:57 [error] 31608#31964: *98 CreateFile() "C:/nginx/html/50x.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2024/10/25 14:07:21 [emerg] 22936#7592: cannot load certificate "C:
+ginx-1.24.0\ssl\cert.pem": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('C:
+ginx-1.24.0\ssl\cert.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2024/10/25 14:09:00 [emerg] 38728#37788: cannot load certificate "C:
+ginx-1.24.0\ssl\cert.pem": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('C:
+ginx-1.24.0\ssl\cert.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2024/10/25 14:34:08 [error] 31608#31964: *102 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2024/10/25 14:34:08 [error] 31608#31964: *102 CreateFile() "C:/nginx/html/50x.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2024/10/25 15:41:45 [emerg] 36844#35828: cannot load certificate "C:
+ginx-1.24.0\ssl\cert.pem": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('C:
+ginx-1.24.0\ssl\cert.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2024/10/25 15:43:56 [emerg] 38708#14328: SSL_CTX_use_certificate("C:/nginx-1.24.0/ssl/cert.pem") failed (SSL: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small)
+2024/10/25 16:17:59 [emerg] 31196#21648: cannot load certificate "C:/nginx-1.24.0/ssl/cert.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('C:/nginx-1.24.0/ssl/cert.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2024/10/25 16:18:43 [notice] 22772#44692: signal process started
+2024/10/25 16:37:25 [notice] 37788#44644: signal process started
+2024/10/25 16:48:30 [notice] 37344#37964: signal process started
+2024/10/25 17:21:28 [notice] 44860#39520: signal process started
+2024/10/25 17:33:13 [notice] 44200#28808: signal process started
+2024/10/25 17:36:11 [notice] 37084#32164: signal process started
+2024/10/25 17:39:10 [notice] 44808#27668: signal process started
+2024/10/25 17:51:57 [notice] 45040#43560: signal process started
+2024/10/25 17:58:07 [notice] 14476#34788: signal process started
+2024/10/25 18:08:34 [notice] 41224#32892: signal process started
+2024/10/25 19:50:02 [error] 31608#31964: *295 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.219.161, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "192.168.219.161"
+2024/10/25 19:50:02 [error] 31608#31964: *295 CreateFile() "C:/nginx/html/50x.html" failed (3: The system cannot find the path specified), client: 192.168.219.161, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "192.168.219.161"
+2024/10/25 19:59:14 [notice] 13588#37456: signal process started
+2024/10/25 20:38:02 [notice] 16592#17728: signal process started
+2024/10/25 20:44:28 [notice] 42464#23212: signal process started
+2024/10/25 20:54:04 [notice] 3696#21816: signal process started
+2024/10/25 21:10:36 [emerg] 29040#29856: no "ssl_certificate" is defined for the "listen ... ssl" directive in C:\nginx-1.24.0/conf/nginx.conf:21
+2024/10/25 21:14:22 [notice] 16956#15980: signal process started
+2024/10/25 21:16:57 [emerg] 41572#44960: unknown directive "proxy_https_version" in C:\nginx-1.24.0/conf/nginx.conf:40
+2024/10/25 21:18:16 [emerg] 42540#15836: cannot load certificate key "C:
+ginx-1.24.0\ssl\private.crt": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('C:
+ginx-1.24.0\ssl\private.crt','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2024/10/25 21:19:09 [emerg] 37944#17904: cannot load certificate key "C:/nginx-1.24.0/ssl/private.crt": PEM_read_bio_PrivateKey() failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: ANY PRIVATE KEY)
+2024/10/25 21:21:11 [emerg] 36432#22712: cannot load certificate key "C:/nginx-1.24.0/ssl/cert.pem": PEM_read_bio_PrivateKey() failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: ANY PRIVATE KEY)
+2024/10/25 21:21:21 [emerg] 30888#31648: cannot load certificate key "C:/nginx-1.24.0/ssl/privkey.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('C:/nginx-1.24.0/ssl/privkey.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2024/10/28 09:37:06 [notice] 18092#24372: signal process started
+2024/10/28 09:37:54 [notice] 43908#38920: signal process started
+2024/10/28 16:36:20 [notice] 11336#47516: signal process started
+2024/10/28 16:46:26 [notice] 30756#44240: signal process started
+2024/10/28 18:00:14 [notice] 26612#36880: signal process started
+2024/10/28 18:13:31 [emerg] 24972#20196: "server" directive is not allowed here in C:\nginx-1.24.0/conf/nginx.conf:1
+2024/10/28 18:14:47 [notice] 37352#46608: signal process started
+2024/10/28 18:22:41 [error] 31608#31964: *384 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.219.129, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "192.168.219.161"
+2024/10/28 18:22:41 [error] 31608#31964: *384 CreateFile() "C:/nginx/html/50x.html" failed (3: The system cannot find the path specified), client: 192.168.219.129, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "192.168.219.161"
+2024/10/28 18:23:19 [error] 31608#31964: *387 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "127.0.0.1"
+2024/10/28 18:23:19 [error] 31608#31964: *387 CreateFile() "C:/nginx/html/50x.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "127.0.0.1"
+2024/10/28 18:27:01 [notice] 41620#31752: signal process started
+2024/10/28 18:40:23 [emerg] 45696#47496: cannot load certificate "C:/nginx-1.24.0/ssl/cert.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('C:/nginx-1.24.0/ssl/cert.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2024/10/28 18:41:07 [notice] 19212#48160: signal process started
+2024/10/28 19:01:28 [notice] 30124#464: signal process started
+2024/10/28 19:09:17 [notice] 45664#12152: signal process started
+2024/10/28 20:16:48 [emerg] 30932#46076: cannot load certificate key "C:/nginx-1.24.0/ssl/private.key": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('C:/nginx-1.24.0/ssl/private.key','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2024/10/28 20:18:17 [notice] 10424#12552: signal process started
+2024/10/29 08:31:43 [error] 31608#31964: *504 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.219.161, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "192.168.219.161"
+2024/10/29 08:31:43 [error] 31608#31964: *504 CreateFile() "C:/nginx/html/50x.html" failed (3: The system cannot find the path specified), client: 192.168.219.161, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "192.168.219.161"
+2024/10/29 08:31:45 [error] 31608#31964: *504 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.219.161, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:3000/favicon.ico", host: "192.168.219.161", referrer: "http://192.168.219.161/"
+2024/10/29 08:31:45 [error] 31608#31964: *504 CreateFile() "C:/nginx/html/50x.html" failed (3: The system cannot find the path specified), client: 192.168.219.161, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:3000/favicon.ico", host: "192.168.219.161", referrer: "http://192.168.219.161/"
+2024/10/29 10:33:37 [emerg] 14584#49584: invalid number of arguments in "proxy_pass" directive in C:\nginx-1.24.0/conf/nginx.conf:33
+2024/10/29 14:40:47 [notice] 46172#37864: signal process started
+2024/10/29 14:48:47 [notice] 9140#50852: signal process started
+2024/10/29 15:11:27 [emerg] 24140#42248: SSL_CTX_use_certificate("C:/nginx-1.24.0/ssl/cert.pem") failed (SSL: error:140AB18F:SSL routines:SSL_CTX_use_certificate:ee key too small)
+2024/10/29 15:28:14 [notice] 47220#33788: signal process started
+2024/10/29 15:56:26 [emerg] 44340#20716: "server" directive is not allowed here in C:\nginx-1.24.0/conf/nginx.conf:2
+2024/10/29 16:00:24 [notice] 43628#45228: signal process started
+2024/10/29 16:07:27 [notice] 51152#18956: signal process started
+2024/10/29 16:13:39 [notice] 48876#43416: signal process started
+2024/10/29 16:16:40 [emerg] 51600#40048: "location" directive is not allowed here in C:\nginx-1.24.0/conf/nginx.conf:55
+2024/10/29 16:19:46 [notice] 44836#30656: signal process started
+2024/10/29 16:57:27 [notice] 51964#50852: signal process started
+2024/10/29 17:01:50 [notice] 52296#30192: signal process started
+2024/10/30 11:51:45 [error] 31608#31964: *539 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/=1730256705297 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/=1730256705297", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:51:48 [error] 31608#31964: *540 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/=1730256708536 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/=1730256708536", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:51:49 [error] 31608#31964: *543 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/=1730256709528 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/=1730256709528", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:51:50 [error] 31608#31964: *548 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/=1730256709686 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/=1730256709686", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:52:04 [error] 31608#31964: *550 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/1730256724765 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/1730256724765", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:52:12 [error] 31608#31964: *555 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/1730256732583 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/1730256732583", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:52:13 [error] 31608#31964: *559 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/1730256733352 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/1730256733352", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:52:14 [error] 31608#31964: *561 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/1730256734511 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/1730256734511", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:52:44 [error] 31608#31964: *563 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/1730256764217 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/1730256764217", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:52:44 [error] 31608#31964: *565 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/1730256764658 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/1730256764658", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:52:44 [error] 31608#31964: *567 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/1730256764819 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/1730256764819", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:52:45 [error] 31608#31964: *569 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/1730256764961 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/1730256764961", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:52:45 [error] 31608#31964: *571 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/1730256765853 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/1730256765853", host: "localhost", referrer: "http://localhost/"
+2024/10/30 11:52:46 [error] 31608#31964: *573 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask/1730256765993 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask/1730256765993", host: "localhost", referrer: "http://localhost/"
+2024/10/30 13:47:11 [error] 31608#31964: *629 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask%201730263631035 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask%201730263631035", host: "localhost", referrer: "http://localhost/"
+2024/10/30 13:51:46 [notice] 46856#45740: signal process started
+2024/10/30 13:52:31 [error] 31608#31964: *672 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask%201730263951951 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask%201730263951951", host: "localhost", referrer: "http://localhost/"
+2024/10/30 13:55:14 [error] 31608#31964: *686 WSASend() failed (10054: An existing connection was forcibly closed by the remote host) while sending request to upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask%201730264114639 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask%201730264114639", host: "localhost", referrer: "http://localhost/"
+2024/10/30 13:55:14 [error] 31608#31964: *686 CreateFile() "C:/nginx/html/50x.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "POST /api/ask%201730264114639 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask%201730264114639", host: "localhost", referrer: "http://localhost/"
+2024/10/30 15:09:55 [error] 31608#31964: *764 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /api/ask%201730268595453 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask%201730268595453", host: "localhost", referrer: "http://localhost/"
+2024/10/30 17:19:30 [emerg] 29408#53880: unknown "connection_upgrade" variable
+2024/10/30 17:20:20 [notice] 38800#39584: signal process started
+2024/10/30 19:15:34 [error] 54532#53472: *1550 upstream prematurely closed connection while reading upstream, client: 127.0.0.1, server: f1cd-220-123-122-32.ngrok-free.app, request: "GET /api/audio/output_audio.mp3 HTTP/1.1", upstream: "http://127.0.0.1:8000/api/audio/output_audio.mp3", host: "f1cd-220-123-122-32.ngrok-free.app", referrer: "https://f1cd-220-123-122-32.ngrok-free.app/"
+2024/10/31 10:56:32 [error] 54532#53472: *1784 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: f1cd-220-123-122-32.ngrok-free.app, request: "POST /api/ask HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask", host: "f1cd-220-123-122-32.ngrok-free.app", referrer: "https://f1cd-220-123-122-32.ngrok-free.app/"
+2024/10/31 10:56:50 [error] 54532#53472: *1788 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: f1cd-220-123-122-32.ngrok-free.app, request: "POST /api/ask HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask", host: "f1cd-220-123-122-32.ngrok-free.app", referrer: "https://f1cd-220-123-122-32.ngrok-free.app/"
+2024/10/31 10:57:23 [error] 54532#53472: *1790 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: f1cd-220-123-122-32.ngrok-free.app, request: "POST /api/ask HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask", host: "f1cd-220-123-122-32.ngrok-free.app", referrer: "https://f1cd-220-123-122-32.ngrok-free.app/"
+2024/10/31 10:57:48 [error] 54532#53472: *1792 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: f1cd-220-123-122-32.ngrok-free.app, request: "POST /api/ask HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask", host: "f1cd-220-123-122-32.ngrok-free.app", referrer: "https://f1cd-220-123-122-32.ngrok-free.app/"
+2024/10/31 15:43:04 [error] 54532#53472: *2281 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: f1cd-220-123-122-32.ngrok-free.app, request: "POST /api/ask HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask", host: "f1cd-220-123-122-32.ngrok-free.app", referrer: "https://f1cd-220-123-122-32.ngrok-free.app/"
+2024/10/31 15:43:04 [error] 54532#53472: *2285 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: f1cd-220-123-122-32.ngrok-free.app, request: "POST /api/ask HTTP/1.1", upstream: "http://127.0.0.1:8000/api/ask", host: "f1cd-220-123-122-32.ngrok-free.app", referrer: "https://f1cd-220-123-122-32.ngrok-free.app/"
+2024/11/01 12:04:30 [emerg] 40520#42508: invalid number of arguments in "alias" directive in C:\nginx-1.24.0/conf/nginx.conf:55
+2024/11/01 12:05:06 [emerg] 57172#43464: invalid number of arguments in "root" directive in C:\nginx-1.24.0/conf/nginx.conf:55
+2024/11/01 12:06:02 [emerg] 36868#44152: invalid number of arguments in "root" directive in C:\nginx-1.24.0/conf/nginx.conf:55
+2024/11/01 12:06:41 [notice] 47184#41216: signal process started
+2024/11/01 13:31:25 [emerg] 16356#50984: invalid number of arguments in "root" directive in C:\nginx-1.24.0/conf/nginx.conf:73
+2024/11/01 13:32:58 [notice] 31760#56636: signal process started
+2024/11/01 13:37:09 [notice] 38664#51636: signal process started
+2024/11/01 13:51:11 [notice] 52056#46652: signal process started
+2024/11/01 13:58:53 [notice] 52256#42928: signal process started
+2024/11/01 14:01:18 [notice] 47900#18016: signal process started
+2024/11/01 14:03:31 [notice] 30012#25032: signal process started
+2024/11/01 14:03:50 [error] 44204#44496: *3078 CreateFile() "C:/Users/azhhs/OneDrive/바탕화면/Work/ICT_Mobility/Whisper_test02/Frontend/test_tk/public/service-worker.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 14:14:34 [error] 44204#44496: *3083 CreateFile() "C:/Users/azhhs/OneDrive/바탕화면/Work/ICT_Mobility/Whisper_test02/Frontend/test_tk/public/service-worker.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 14:16:59 [error] 44204#44496: *3089 CreateFile() "C:/Users/azhhs/OneDrive/바탕화면/Work/ICT_Mobility/Whisper_test02/Frontend/test_tk/public/service-worker.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 14:17:14 [notice] 10052#52256: signal process started
+2024/11/01 14:17:19 [error] 18852#57636: *3094 CreateFile() "C:/Users/azhhs/OneDrive/바탕화면/Work/ICT_Mobility/Whisper_test02/Frontend/test_tk/public/service-worker.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 14:18:13 [notice] 13856#31532: signal process started
+2024/11/01 14:18:18 [error] 20916#57864: *3099 rewrite or internal redirection cycle while internally redirecting to "/service-worker.js", client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 14:19:43 [error] 20916#57864: *3105 rewrite or internal redirection cycle while internally redirecting to "/service-worker.js", client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 14:26:15 [notice] 53456#28576: signal process started
+2024/11/01 14:26:25 [error] 31332#44412: *3111 CreateFile() "C:/Users/azhhs/OneDrive/바탕화면/Work/ICT_Mobility/Whisper_test02/Frontend/test_tk/public/service-worker.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 14:28:04 [notice] 17924#45924: signal process started
+2024/11/01 14:33:11 [notice] 53812#18404: signal process started
+2024/11/01 14:37:07 [notice] 6192#44172: signal process started
+2024/11/01 14:37:12 [error] 9144#4884: *3151 CreateFile() "C:/Users/azhhs/OneDrive/바탕화면/Work/ICT_Mobility/Whisper_test02/Frontend/test_tk/public/service-worker.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 14:37:33 [error] 9144#4884: *3151 CreateFile() "C:/Users/azhhs/OneDrive/바탕화면/Work/ICT_Mobility/Whisper_test02/Frontend/test_tk/public/service-worker.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 15:22:30 [error] 9144#4884: *3163 CreateFile() "C:/Users/azhhs/OneDrive/바탕화면/Work/ICT_Mobility/Whisper_test02/Frontend/test_tk/public/service-worker.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 15:24:33 [error] 9144#4884: *3172 CreateFile() "C:/Users/azhhs/OneDrive/바탕화면/Work/ICT_Mobility/Whisper_test02/Frontend/test_tk/public/service-worker.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 15:39:27 [error] 9144#4884: *3192 CreateFile() "C:/Users/azhhs/OneDrive/바탕화면/Work/ICT_Mobility/Whisper_test02/Frontend/test_tk/public/service-worker.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 15:47:58 [error] 9144#4884: *3198 CreateFile() "C:/Users/azhhs/OneDrive/바탕화면/Work/ICT_Mobility/Whisper_test02/Frontend/test_tk/public/service-worker.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: d343-220-123-122-32.ngrok-free.app, request: "GET /service-worker.js HTTP/1.1", host: "d343-220-123-122-32.ngrok-free.app", referrer: "https://d343-220-123-122-32.ngrok-free.app/"
+2024/11/01 15:59:34 [notice] 49708#25312: signal process started
