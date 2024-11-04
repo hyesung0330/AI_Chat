@@ -1,1 +1,1 @@
-# ICTMOBILITY_TALK_TK
+# AI 채팅 시스템
